@@ -107,9 +107,15 @@ p {
 
 }
 
+.body-header {
+    color: white;
+    font-family: Oleo Script;
+}
+
 .body-header-style {
     color: #ffcca8;
     font-family: Oleo Script;
+
 }
 
 /* CSS for Footer */
