@@ -1,72 +1,141 @@
 body {
-    background: white;
+    background: #202026;
     font-size: 1rem;
     margin: 0;
     padding: 0;
 }
 
-div {
+/* div {
     display: inline
-}
+} */
 
 .container {
     /* background: skyblue;
     margin: auto;
     display: block; */
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* CSS for Header */
+
+.header-sticky {
+    position: sticky;
+    top: 0;
 }
 
 .header {
     /* background: skyblue; */
     display: block;
-    
+}
+
+.header-style {
+    color: #8770b4;
+    font-family: Oleo Script;
 }
 
 h1 {
-    background: skyblue;
-    font-family: Arial, Helvetica, sans-serif;
+    background: #17171B;
+    /* font-family: Oleo Script; */
     padding-top: 10px;
     padding-right: 20px;
     padding-bottom: 10px;
     padding-left: 20px;
     margin: 0;
+    /* border-bottom: 1px solid grey; */
+    text-align: center;
 }
 
-.header-color {
-    color: black;
-}
+/* CSS for Navigation bar */
 
 nav {
     margin: 0;
+    background: #17171B;
 }
 
 ul {
     margin: 0;
-    padding-top: 10px;
-    padding-right: 0;
-    padding-bottom: 10px;
-    padding-left: 20px;    
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    padding-left: 0;
+    /* border: 1px solid grey;  */
+    text-align: center;
+    border-bottom: 1px solid darkgray;
+    list-style-type: none;
 }
 
 li {
-    display: inline;
-    padding-right: 10%;
+    font-family: Oleo Script;
+    display: inline-flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30%;
+    text-align: center;
+    justify-content: space-evenly;
+    /* border: 1px solid grey; */
+}
+
+li:hover {
+    background-color: #666666;
+    border-radius: 10px;
+
+}
+
+.clicked-menu {
+    background: #8770b4;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 p {
-    display: inline;
+    /* display: block; */
 }
 
-.p-example {
-    position: relative;
-    /* left: 0%; */
+/* CSS for Paragraphs */
+
+.body{
+    display: block;
+    margin: 5%;
+
 }
 
-.p1 {
-    position: relative;
-    /* left: 20%; */
+.body-header-style {
+    color: #ffcca8;
+    font-family: Oleo Script;
 }
 
-.p2 {
-    position: relative;
-    /* left: 40%; */
+/* CSS for Footer */
+
+footer {
+    position: fixed;
+    color: #ffcca8;
+    bottom: 1rem;
+    right: 1rem;
+
+}
+
+
+/* Media */
+
+/* Mobile */
+
+@media (max-width: 430px) {
+    li {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+/* Tablet */
+
+@media (max-width: 1024px) {
+
 }
