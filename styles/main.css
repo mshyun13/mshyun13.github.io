@@ -38,7 +38,7 @@ body {
     font-family: Oleo Script;
 }
 
-h1 {
+.header h1 {
     background: #17171B;
     /* font-family: Oleo Script; */
     padding-top: 10px;
