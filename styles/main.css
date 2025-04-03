@@ -52,12 +52,12 @@ h1 {
 
 /* CSS for Navigation bar */
 
-nav {
+.navigation-bar {
     margin: 0;
     background: #17171B;
 }
 
-ul {
+.nav-ul {
     margin: 0;
     /* padding-top: 10px; */
     /* padding-bottom: 10px; */
@@ -68,7 +68,7 @@ ul {
     list-style-type: none;
 }
 
-li {
+.nav-li {
     font-family: Oleo Script;
     display: inline-flex;
     padding-top: 10px;
@@ -79,7 +79,7 @@ li {
     /* border: 1px solid grey; */
 }
 
-li:hover {
+.nav-li:hover {
     background-color: #666666;
     border-radius: 10px;
 
@@ -95,27 +95,121 @@ a {
     color: white;
 }
 
-p {
-    /* display: block; */
-}
+/* p {
+    display: block;
+} */
 
 /* CSS for Paragraphs */
 
 .body{
     display: block;
-    margin: 5%;
+    margin: 5% 5% 15%;
 
 }
 
-.body-header {
+.body-sub-header {
     color: white;
     font-family: Oleo Script;
 }
 
-.body-header-style {
+.body-header {
     color: #ffcca8;
     font-family: Oleo Script;
+}
 
+.div-border {
+    /* border: 1px solid yellow; */
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    /* width: 100; */
+}
+
+/* CSS for images */
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: none;
+}
+
+/* CSS for Border, Margin, Padding exampels */
+
+.content-border {
+    border: 1px solid #ffcca8;
+}
+
+.outside-box {
+    background-color: grey;
+    margin: 20px;
+    display: inline-block;
+}
+
+.inside-box {
+    background-color: #ffcca8;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#margin-0 {
+    margin: 20px;
+}
+
+#margin-1 {
+    margin-top: 20px;
+}
+
+#margin-2 {
+    margin-right: 20px;
+}
+
+#margin-3 {
+    margin-bottom: 20px;
+}
+
+#margin-4 {
+    margin-left: 20px;
+}
+
+#margin-5 {
+    margin: 20px 40px 60px 30px;
+}
+
+.content-box {
+    background-color: #ffcca8;
+    color: black;
+    font-weight: bold;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+#padding-0 {
+    padding: 20px;
+}
+
+#padding-1 {
+    padding-top: 20px;
+}
+
+#padding-2 {
+    padding-right: 20px;
+}
+
+#padding-3 {
+    padding-bottom: 20px;
+}
+
+#padding-4 {
+    padding-left: 20px;
+}
+
+#padding-5 {
+    padding: 20px 50px 30px 40px;
 }
 
 /* CSS for Footer */
@@ -134,7 +228,7 @@ footer {
 /* Mobile */
 
 @media (max-width: 430px) {
-    li {
+    .nav-li {
         display: inline-block;
         width: 100%;
     }
