@@ -104,7 +104,21 @@ a {
 .body{
     display: block;
     margin: 5% 5% 15%;
+}
 
+.body-border{
+    background: #555555;
+    padding: 1% 1%;
+    margin-top: 1%;;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.body-border em {
+    text-align: right;
+    display: block;
+    font-size: 0.9rem;
 }
 
 .body-sub-header {
@@ -125,6 +139,9 @@ a {
     /* width: 100; */
 }
 
+.reference {
+    text-align: right;
+}
 /* Github */
 
 .github {
@@ -238,12 +255,21 @@ img {
 
 footer {
     position: fixed;
-    color: #ffcca8;
-    bottom: 1rem;
-    right: 1rem;
-
+    /* display: block; */
+    width: 100%;
+    color: #ffcca8; 
+    /* right: 1rem; */
+    bottom: 0px;
+    /* height: 10rem; */
+    background-color: #17171B;
+    text-align: right;
+    border-top: 1px solid darkgray;
 }
 
+footer a {
+    color: #ffcca8; 
+    padding-right: 1%;
+}
 
 /* Media */
 
