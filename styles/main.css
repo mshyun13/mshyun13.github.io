@@ -142,6 +142,11 @@ a {
 .reference {
     text-align: right;
 }
+
+.reference a{
+    text-decoration-line: underline;
+    color: #ffcca8;
+}
 /* Github */
 
 .github {
