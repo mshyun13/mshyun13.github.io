@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     /* overflow-x: hidden; */
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 /* CSS for Header */
@@ -102,10 +102,6 @@ a {
 } */
 
 /* CSS for Paragraphs */
-
-.body-height {
-    height: 100%;
-}
 
 .body{
     display: block;
