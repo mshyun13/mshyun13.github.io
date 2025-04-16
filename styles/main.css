@@ -258,6 +258,26 @@ img {
     padding: 20px 50px 30px 40px;
 }
 
+/* Table Layout */
+
+.body table {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.body table, tr, th, td{
+    border: 1px solid white;
+}
+
+.body tr {
+    color: white
+}
+
+.body th {
+    font-weight: bold;
+}
+
 /* CSS for Footer */
 
 footer {
